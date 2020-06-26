@@ -1,4 +1,4 @@
-# patientmanagement
+# Queue Management
 
 A new Flutter application.
 
