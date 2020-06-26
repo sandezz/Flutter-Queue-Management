@@ -84,8 +84,7 @@ class _HomePageState extends State<HomePage> {
             child: Center(
               child: Text(
                 Localization.of(context).getTranslatedRealValue('home_header'),
-                style: TextStyle(color: Colors.blue,fontSize: 25,fontWeight: FontWeight.bold),
-
+                style: TextStyle(color: Colors.blue,fontSize: 25,fontWeight: FontWeight.bold,),
               ),
             ),
           ),
@@ -94,7 +93,7 @@ class _HomePageState extends State<HomePage> {
             child: Center(
               child: Text(
                 Localization.of(context).getTranslatedRealValue('home_header'),
-                style: TextStyle(color: Colors.blue,fontSize: 12,fontWeight: FontWeight.bold),
+                style: TextStyle(color: Colors.blue,fontSize: 12,fontWeight: FontWeight.normal),
 
               ),
             ),
